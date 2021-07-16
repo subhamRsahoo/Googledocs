@@ -17,7 +17,7 @@ import DocumentRow from '../components/DocumentRow'
 
 export default function Home() {
   const [session] = useSession();
-  if(!session) return <Login/>;
+  // if(!session) return <Login/>;
 
   const [showModal , setShowModal] = useState(false)
   const [input , setInput] = useState("");
